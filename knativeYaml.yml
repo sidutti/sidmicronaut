@@ -1,0 +1,15 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: "demo"
+spec:
+  template:
+    spec:
+      containers:
+      - image: "gcr.io/demo/jib-image"
+        name: "demo"
+        ports:
+        - containerPort: 8080
+          name: http1
+          protocol: TCP
+

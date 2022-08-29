@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: demo
+  metrics:
+    enabled: true
+    export:
+      elastic:
+        enabled: true
+        step: PT1M
+elasticsearch.httpHosts: http://localhost:9200,http://127.0.0.2:9200
+netty:
+  default:
+    allocator:
+      max-order: 3

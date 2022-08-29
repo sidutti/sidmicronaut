@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.example
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, discovery-kubernetes, elasticsearch, graalvm, gradle, http-client, jackson-databind, java, java-application, jib, junit, kafka, kafka-streams, knative, kubernetes, kubernetes-informer, logback, management, micrometer, micrometer-elastic, micronaut-build, netty-server, readme, rxjava3, rxjava3-http-client, shade, test-resources, yaml]
